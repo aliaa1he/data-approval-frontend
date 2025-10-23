@@ -1,4 +1,7 @@
-# 📊 Data Approval System
+
+[Screencast from 2025-10-23 20-16-13.webm](https://github.com/user-attachments/assets/278be92c-73ca-4763-a3db-f01172c90b2f)
+ 
+#Data Approval System
 
 A full-stack web application for managing and approving department entries.  
 Built with **Laravel (Sanctum Authentication)** for the backend and **Vue 3 + Vite + Axios** for the frontend.
