@@ -35,7 +35,7 @@ Built with **Laravel (Sanctum Authentication)** for the backend and **Vue 3 + Vi
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Laravel 10**
@@ -49,5 +49,37 @@ Built with **Laravel (Sanctum Authentication)** for the backend and **Vue 3 + Vi
 - **Vite**
 - **Axios** for API communication
 - **Font Awesome** for icons
+
+---
+
+How It Works
+
+- **Authentication**:
+
+- User registers or logs in.
+
+- Sanctum generates a token stored in localStorage.
+
+- **Entry Submission**:
+
+- Users can add entries (category, value, date, notes).
+
+- Each entry is stored with status pending by default.
+
+- **Admin Dashboard**:
+
+- Admin can view all entries.
+
+- Approve or reject entries → updates status instantly.
+
+- View real-time statistics (pending, approved, rejected, total value).
+
+- **Validation & Error Handling**:
+
+- Frontend validates fields before submission.
+
+- Backend prevents duplicate entries with the same (category, date, and value).
+
+- Clear error/success messages displayed to the user.
 
 ---
